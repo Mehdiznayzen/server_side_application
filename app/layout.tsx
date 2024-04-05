@@ -6,7 +6,9 @@ import Footer from "@/components/Footer";
 
 import "./globals.css";
 
-const dmSans = DM_Sans({ subsets: ["latin"] });
+const dmSans = DM_Sans({ 
+  subsets: ["latin"] 
+});
 
 export const metadata: Metadata = {
   title: "Anime Vault",
